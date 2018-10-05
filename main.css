@@ -1,0 +1,321 @@
+.title-block{
+    padding: 20px;
+    text-align: center;
+    color: #444;
+    background: #c7dbe0;
+}
+.title-block .main-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0883a0;
+}
+.title-block .sub-main-title{
+    font-size: 18px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.top-block{
+    padding: 390px 0 40px;
+    background: url(top-block-v2.jpg)/*tpa=http://trend-offer.ru/landings/61126/img/top-block-v2.jpg*/ 50% 0 no-repeat #9abec8;
+}
+.top-block .cost-cont{
+    height: 70px;
+    text-align: center;
+    color: #fff;
+}
+.top-block .cost-cont>div{
+    float: left;
+}
+.top-block .cost-cont .sale{
+    width: 110px;
+    margin: -2px 0 0;
+    padding: 0;
+    /* margin: 0;
+    padding: 5px 0 0; */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+.top-block .cost-cont .sale strong{
+    display: block;
+    font-size: 38px;
+    line-height: 0.9em;
+    letter-spacing: normal;
+}
+.top-block .cost-cont .cost{
+    width: 185px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 64px;
+    white-space: nowrap;
+}
+.top-block .cost-cont .old-cost{
+    text-decoration: line-through;
+    color: #444;
+}
+.top-block .cost-cont .new-cost{
+    color: #0883a0;
+}
+.top-block .timer-cont{
+    padding: 40px 40px 20px;
+    color: #444;
+}
+.top-block .timer-cont>h3{
+    padding: 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.top-block .timer-cont .time_circles>div>h4{
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    color: #444;
+    font-weight: 400;
+    font-size: 14px;
+}
+.top-block .timer-cont .time_circles>div>span {
+    font-family: 'Open Sans';
+    font-size: 300%;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #444;
+}
+
+.sup-block-v3{
+    padding: 40px 0;
+    background: #c6dbe0;
+}
+.sup-block-v3 .lvl-title{
+    margin: 0 20px 30px;
+}
+.sup-block-v3>div{
+    padding: 0 20px 20px;
+}
+.sup-block-v3 .sup-cont{
+    padding: 0 10px;
+}
+.sup-block-v3 .sup-cont>li{
+    float: left;
+    width: 50%;
+    padding: 10px 10px 20px;
+    text-align: center;
+}
+.sup-block-v3 .sup-img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.sup-block-v3 .sup-cont>li strong{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+.visual-block{
+    padding: 0;
+}
+.visual-block>img{
+    display: block;
+    margin: 0 auto;
+}
+
+.char-block-v1 .list-v1>li{
+    padding: 15px 10px;
+    font-weight: 300;
+}
+.char-block-v1 .list-v1>li:nth-child(odd){
+    background: #eef4f6;
+}
+.char-block-v1 .list-v1>li:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+.char-block-v1 .list-v1 .list-param{
+    display: block;
+    float: left;
+    width: 50%;
+    font-weight: 400;
+}
+.char-block-v1 .list-v1 .list-param:before{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 10px 0 0;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: #0883a0;   
+}
+.char-block-v1 .list-v1 .list-detail{
+    display: block;
+    float: left;
+    width: 50%;
+}
+.char-block-v1 .button-m{
+    margin: 40px auto 0;
+}
+
+.slider-block{
+    padding: 0;
+}
+.slider-block .slick-arrow{
+    display: inline-block;
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    cursor: pointer;
+    z-index: 99;
+    top: 40%;
+    background: url(button-sl-1.png)/*tpa=http://trend-offer.ru/landings/61126/img/button-sl-1.png*/ no-repeat;
+ }
+.slider-block .slick-prev{
+    left: 20px;
+    background-position: 0 0;
+}
+.slider-block .slick-next{
+    background-position: -57px 0;
+    right: 20px;
+}
+
+.rev-block-v1{
+    color: #444;
+    background: #c6dbe0;
+}
+.rev-block-v1 .rev-item{
+    padding: 0 20px;
+}
+.rev-block-v1 .rev-item-text{
+    position: relative;
+    padding: 30px 30px;
+    color: #222;
+    background: #fff;
+    border-radius: 2px;
+}
+.rev-block-v1 .rev-item-text:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 54px;
+    left: 0;
+    bottom: -54px;
+    background: url(rev-tool.png)/*tpa=http://trend-offer.ru/landings/61126/img/rev-tool.png*/ 50% 0 no-repeat;
+}
+.rev-block-v1 .rev-item-text>p{
+    position: relative;
+    margin: 0 0 5px;
+    padding: 0 0 30px;
+    border-bottom: 1px solid #ddd;
+}
+.rev-block-v1 .rev-item-text>p:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 27px;
+    left: 50%;
+    bottom: -14px;
+    margin-left: -20px;
+    background: url(rev-quot.png)/*tpa=http://trend-offer.ru/landings/61126/img/rev-quot.png*/ 50% 0 no-repeat #fff;
+}
+.rev-block-v1 .rev-item-img{
+    padding: 30px 0 0 30px;
+}
+.rev-block-v1 .rev-item-img>img{
+    display: block;
+    float: left;
+    width: 130px;
+    height: 130px;
+    border: 3px solid #0883a0;
+    border-radius: 50%;
+}
+.rev-block-v1 .rev-item-name{
+    padding: 40px 0 0 150px;
+}
+.rev-block-v1 .rev-item-name>strong{
+    display: block;
+}
+.rev-block-v1 .slick-arrow{
+    display: inline-block;
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    cursor: pointer;
+    z-index: 99;
+    top: 80px;
+    background: url(button-sl-2.png)/*tpa=http://trend-offer.ru/landings/61126/img/button-sl-2.png*/ no-repeat;
+ }
+.rev-block-v1 .slick-prev{
+    left: -15px;
+    background-position: 0 0;
+}
+.rev-block-v1 .slick-next{
+    background-position: -57px 0;
+    right: -15px;
+}
+
+.delivery-block-v1{
+    padding: 40px 0 0;
+    background: url(rev-bg-v1.jpg)/*tpa=http://trend-offer.ru/landings/61126/img/rev-bg-v1.jpg*/ repeat;
+}
+.delivery-block-v1 .delivery-cont{
+    padding: 0 0 30px;
+    background: url(delivery-wave.png)/*tpa=http://trend-offer.ru/landings/61126/img/delivery-wave.png*/ 0 100% repeat-x;
+}
+.delivery-block-v1 .delivery-cont>li{
+    float: left;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+}
+.delivery-block-v1 .delivery-cont>li:before{
+    content: '';
+    display: block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 15px;
+    background: url(delivery-v1.png)/*tpa=http://trend-offer.ru/landings/61126/img/delivery-v1.png*/ no-repeat;
+}
+.delivery-block-v1 .delivery-cont>li:nth-child(1):before{
+    background-position: 0 0;
+}
+.delivery-block-v1 .delivery-cont>li:nth-child(2):before{
+    background-position: -72px 0;
+}
+.delivery-block-v1 .delivery-cont>li:nth-child(3):before{
+    background-position: -144px 0;
+}
+.delivery-block-v1 .delivery-cont>li:nth-child(4):before{
+    background-position: -216px 0;
+}
+.delivery-block-v1 .delivery-info{
+    padding: 20px;
+    text-align: center;
+    background: #e5e8e7;
+}
+.delivery-block-v1 .delivery-info>p{
+    padding: 0 0 15px;
+}
+.delivery-block-v1 .delivery-info>p:last-child{
+    padding: 0;
+}
+
+.copyright{
+    color: #eee;
+    padding: 30px 0 20px;
+    text-align: center;
+    font-size: 14px;
+    background: #7b98a0;
+}
